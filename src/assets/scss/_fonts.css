@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Maza';
+  /* src: url('/fonts/Maza/MAZ55.otf') format('opentype'); */
+  src: url('/fonts/Maza/Maza W00 Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TenorSans';
+  src: url('/fonts/TenorSans/TenorSans.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --font-primary: 'Maza', serif;
+  --font-secondary: 'TenorSans', serif;
+}
